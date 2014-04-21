@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFFC220E1904C6B500C5B133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC220D1904C6B500C5B133 /* Foundation.framework */; };
+		FFFC22101904C6B500C5B133 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC220F1904C6B500C5B133 /* CoreGraphics.framework */; };
+		FFFC22121904C6B500C5B133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC22111904C6B500C5B133 /* UIKit.framework */; };
+		FFFC22181904C6B500C5B133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFFC22161904C6B500C5B133 /* InfoPlist.strings */; };
+		FFFC221A1904C6B500C5B133 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC22191904C6B500C5B133 /* main.m */; };
+		FFFC221E1904C6B500C5B133 /* xyzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC221D1904C6B500C5B133 /* xyzAppDelegate.m */; };
+		FFFC22211904C6B600C5B133 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFC221F1904C6B600C5B133 /* Main_iPhone.storyboard */; };
+		FFFC22241904C6B600C5B133 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFFC22221904C6B600C5B133 /* Main_iPad.storyboard */; };
+		FFFC22271904C6B600C5B133 /* xyzMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC22261904C6B600C5B133 /* xyzMasterViewController.m */; };
+		FFFC222A1904C6B600C5B133 /* xyzDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC22291904C6B600C5B133 /* xyzDetailViewController.m */; };
+		FFFC222C1904C6B600C5B133 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFFC222B1904C6B600C5B133 /* Images.xcassets */; };
+		FFFC22331904C6B700C5B133 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC22321904C6B700C5B133 /* XCTest.framework */; };
+		FFFC22341904C6B700C5B133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC220D1904C6B500C5B133 /* Foundation.framework */; };
+		FFFC22351904C6B700C5B133 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC22111904C6B500C5B133 /* UIKit.framework */; };
+		FFFC223D1904C6B700C5B133 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFFC223B1904C6B700C5B133 /* InfoPlist.strings */; };
+		FFFC223F1904C6B700C5B133 /* Moving_PortraitsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFC223E1904C6B700C5B133 /* Moving_PortraitsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFFC22361904C6B700C5B133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFFC22021904C6B400C5B133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFFC22091904C6B400C5B133;
+			remoteInfo = "Moving Portraits";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFFC220A1904C6B500C5B133 /* Moving Portraits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moving Portraits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFC220D1904C6B500C5B133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFFC220F1904C6B500C5B133 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFFC22111904C6B500C5B133 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFFC22151904C6B500C5B133 /* Moving Portraits-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving Portraits-Info.plist"; sourceTree = "<group>"; };
+		FFFC22171904C6B500C5B133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFFC22191904C6B500C5B133 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFFC221B1904C6B500C5B133 /* Moving Portraits-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Moving Portraits-Prefix.pch"; sourceTree = "<group>"; };
+		FFFC221C1904C6B500C5B133 /* xyzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xyzAppDelegate.h; sourceTree = "<group>"; };
+		FFFC221D1904C6B500C5B133 /* xyzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xyzAppDelegate.m; sourceTree = "<group>"; };
+		FFFC22201904C6B600C5B133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FFFC22231904C6B600C5B133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FFFC22251904C6B600C5B133 /* xyzMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xyzMasterViewController.h; sourceTree = "<group>"; };
+		FFFC22261904C6B600C5B133 /* xyzMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xyzMasterViewController.m; sourceTree = "<group>"; };
+		FFFC22281904C6B600C5B133 /* xyzDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xyzDetailViewController.h; sourceTree = "<group>"; };
+		FFFC22291904C6B600C5B133 /* xyzDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xyzDetailViewController.m; sourceTree = "<group>"; };
+		FFFC222B1904C6B600C5B133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFFC22311904C6B700C5B133 /* Moving PortraitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Moving PortraitsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFC22321904C6B700C5B133 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FFFC223A1904C6B700C5B133 /* Moving PortraitsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Moving PortraitsTests-Info.plist"; sourceTree = "<group>"; };
+		FFFC223C1904C6B700C5B133 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFFC223E1904C6B700C5B133 /* Moving_PortraitsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Moving_PortraitsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFC22071904C6B400C5B133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFC22101904C6B500C5B133 /* CoreGraphics.framework in Frameworks */,
+				FFFC22121904C6B500C5B133 /* UIKit.framework in Frameworks */,
+				FFFC220E1904C6B500C5B133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFC222E1904C6B700C5B133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFC22331904C6B700C5B133 /* XCTest.framework in Frameworks */,
+				FFFC22351904C6B700C5B133 /* UIKit.framework in Frameworks */,
+				FFFC22341904C6B700C5B133 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFFC22011904C6B300C5B133 = {
+			isa = PBXGroup;
+			children = (
+				FFFC22131904C6B500C5B133 /* Moving Portraits */,
+				FFFC22381904C6B700C5B133 /* Moving PortraitsTests */,
+				FFFC220C1904C6B500C5B133 /* Frameworks */,
+				FFFC220B1904C6B500C5B133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFC220B1904C6B500C5B133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC220A1904C6B500C5B133 /* Moving Portraits.app */,
+				FFFC22311904C6B700C5B133 /* Moving PortraitsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFC220C1904C6B500C5B133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC220D1904C6B500C5B133 /* Foundation.framework */,
+				FFFC220F1904C6B500C5B133 /* CoreGraphics.framework */,
+				FFFC22111904C6B500C5B133 /* UIKit.framework */,
+				FFFC22321904C6B700C5B133 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFFC22131904C6B500C5B133 /* Moving Portraits */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC221C1904C6B500C5B133 /* xyzAppDelegate.h */,
+				FFFC221D1904C6B500C5B133 /* xyzAppDelegate.m */,
+				FFFC221F1904C6B600C5B133 /* Main_iPhone.storyboard */,
+				FFFC22221904C6B600C5B133 /* Main_iPad.storyboard */,
+				FFFC22251904C6B600C5B133 /* xyzMasterViewController.h */,
+				FFFC22261904C6B600C5B133 /* xyzMasterViewController.m */,
+				FFFC22281904C6B600C5B133 /* xyzDetailViewController.h */,
+				FFFC22291904C6B600C5B133 /* xyzDetailViewController.m */,
+				FFFC222B1904C6B600C5B133 /* Images.xcassets */,
+				FFFC22141904C6B500C5B133 /* Supporting Files */,
+			);
+			path = "Moving Portraits";
+			sourceTree = "<group>";
+		};
+		FFFC22141904C6B500C5B133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC22151904C6B500C5B133 /* Moving Portraits-Info.plist */,
+				FFFC22161904C6B500C5B133 /* InfoPlist.strings */,
+				FFFC22191904C6B500C5B133 /* main.m */,
+				FFFC221B1904C6B500C5B133 /* Moving Portraits-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFC22381904C6B700C5B133 /* Moving PortraitsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC223E1904C6B700C5B133 /* Moving_PortraitsTests.m */,
+				FFFC22391904C6B700C5B133 /* Supporting Files */,
+			);
+			path = "Moving PortraitsTests";
+			sourceTree = "<group>";
+		};
+		FFFC22391904C6B700C5B133 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC223A1904C6B700C5B133 /* Moving PortraitsTests-Info.plist */,
+				FFFC223B1904C6B700C5B133 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFC22091904C6B400C5B133 /* Moving Portraits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFC22421904C6B700C5B133 /* Build configuration list for PBXNativeTarget "Moving Portraits" */;
+			buildPhases = (
+				FFFC22061904C6B400C5B133 /* Sources */,
+				FFFC22071904C6B400C5B133 /* Frameworks */,
+				FFFC22081904C6B400C5B133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Moving Portraits";
+			productName = "Moving Portraits";
+			productReference = FFFC220A1904C6B500C5B133 /* Moving Portraits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFFC22301904C6B700C5B133 /* Moving PortraitsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFC22451904C6B700C5B133 /* Build configuration list for PBXNativeTarget "Moving PortraitsTests" */;
+			buildPhases = (
+				FFFC222D1904C6B700C5B133 /* Sources */,
+				FFFC222E1904C6B700C5B133 /* Frameworks */,
+				FFFC222F1904C6B700C5B133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFFC22371904C6B700C5B133 /* PBXTargetDependency */,
+			);
+			name = "Moving PortraitsTests";
+			productName = "Moving PortraitsTests";
+			productReference = FFFC22311904C6B700C5B133 /* Moving PortraitsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFC22021904C6B400C5B133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = xyz;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rose Swan";
+				TargetAttributes = {
+					FFFC22301904C6B700C5B133 = {
+						TestTargetID = FFFC22091904C6B400C5B133;
+					};
+				};
+			};
+			buildConfigurationList = FFFC22051904C6B400C5B133 /* Build configuration list for PBXProject "Moving Portraits" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFFC22011904C6B300C5B133;
+			productRefGroup = FFFC220B1904C6B500C5B133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFC22091904C6B400C5B133 /* Moving Portraits */,
+				FFFC22301904C6B700C5B133 /* Moving PortraitsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFFC22081904C6B400C5B133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFC22241904C6B600C5B133 /* Main_iPad.storyboard in Resources */,
+				FFFC222C1904C6B600C5B133 /* Images.xcassets in Resources */,
+				FFFC22211904C6B600C5B133 /* Main_iPhone.storyboard in Resources */,
+				FFFC22181904C6B500C5B133 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFC222F1904C6B700C5B133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFC223D1904C6B700C5B133 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFC22061904C6B400C5B133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFC221E1904C6B500C5B133 /* xyzAppDelegate.m in Sources */,
+				FFFC222A1904C6B600C5B133 /* xyzDetailViewController.m in Sources */,
+				FFFC22271904C6B600C5B133 /* xyzMasterViewController.m in Sources */,
+				FFFC221A1904C6B500C5B133 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFFC222D1904C6B700C5B133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFFC223F1904C6B700C5B133 /* Moving_PortraitsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFFC22371904C6B700C5B133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFFC22091904C6B400C5B133 /* Moving Portraits */;
+			targetProxy = FFFC22361904C6B700C5B133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFFC22161904C6B500C5B133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFC22171904C6B500C5B133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFFC221F1904C6B600C5B133 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFC22201904C6B600C5B133 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FFFC22221904C6B600C5B133 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFC22231904C6B600C5B133 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FFFC223B1904C6B700C5B133 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFFC223C1904C6B700C5B133 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFFC22401904C6B700C5B133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFFC22411904C6B700C5B133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFFC22431904C6B700C5B133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving Portraits/Moving Portraits-Prefix.pch";
+				INFOPLIST_FILE = "Moving Portraits/Moving Portraits-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFFC22441904C6B700C5B133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving Portraits/Moving Portraits-Prefix.pch";
+				INFOPLIST_FILE = "Moving Portraits/Moving Portraits-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FFFC22461904C6B700C5B133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moving Portraits.app/Moving Portraits";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving Portraits/Moving Portraits-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Moving PortraitsTests/Moving PortraitsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FFFC22471904C6B700C5B133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Moving Portraits.app/Moving Portraits";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Moving Portraits/Moving Portraits-Prefix.pch";
+				INFOPLIST_FILE = "Moving PortraitsTests/Moving PortraitsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFC22051904C6B400C5B133 /* Build configuration list for PBXProject "Moving Portraits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFC22401904C6B700C5B133 /* Debug */,
+				FFFC22411904C6B700C5B133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFC22421904C6B700C5B133 /* Build configuration list for PBXNativeTarget "Moving Portraits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFC22431904C6B700C5B133 /* Debug */,
+				FFFC22441904C6B700C5B133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFFC22451904C6B700C5B133 /* Build configuration list for PBXNativeTarget "Moving PortraitsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFC22461904C6B700C5B133 /* Debug */,
+				FFFC22471904C6B700C5B133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFC22021904C6B400C5B133 /* Project object */;
+}
